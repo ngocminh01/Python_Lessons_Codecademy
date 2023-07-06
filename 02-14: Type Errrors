@@ -1,0 +1,42 @@
+piggy_bank = '2' + 0.25
+
+There will be an TypeError error message:
+
+Traceback (most recent call last):
+  File "script.py", line 1, in <module>
+    piggy_bank = '2' + 0.25
+TypeError: must be str, not float
+
+This error is reporting that 0.25 is not a string.
+
+#######################################################################
+
+A TypeError is reported by the Python interpreter when an operation is applied to a variable of an inappropriate type.
+This can occur in Python when one attempts to use an operator on something of the incorrect type.
+
+Some common type errors are:
+Accidentally adding or subtracting a string value.
+Call a function on something of the incorrect type.
+
+#######################################################################
+
+# Area Calculator 📏
+
+import math
+
+base = 20
+height = 30
+area = base * height / 2
+
+print("The triangle area is", area)
+
+length = 2
+width = 12
+area = length * width
+
+print("The rectangle area is", area )
+    
+radius = 36
+area = math.pi * radius * radius
+    
+print("The circle area is", area)
