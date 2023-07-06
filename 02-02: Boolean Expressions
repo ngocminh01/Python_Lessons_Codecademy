@@ -1,0 +1,30 @@
+Today is a weekday. #Yes
+Friday is the best day of the week. #No
+Sunday starts with the letter 'C'. #Yes
+
+#######################################################################
+
+Example statement:
+My dog is the cutest dog in the world.
+
+Statement one:
+Dogs are mammals.
+
+Statement two:
+My dog is named Pavel.
+
+Statement three:
+Dogs make the best pets.
+
+Statement four:
+Cats are female dogs.
+
+example_statement = "No"
+
+statement_one = "Yes"
+
+statement_two = "Yes"
+
+statement_three = "No"
+
+statement_four = "Yes"
