@@ -1,0 +1,37 @@
+We are interviewing candidates for a job. We will call each candidate in order, represented by a Python list:
+
+calls = ["Juan", "Zofia", "Amare", "Ezio", "Ananya"]
+
+Python lists are zero-indexed. This means that the first element in a list has index 0, rather than 1.
+Here are the index numbers for the list calls:
+
+Element	Index
+"Juan"	0
+"Zofia"	1
+"Amare"	2
+"Ezio"	3
+"Ananya"	4
+
+We can select a single element from a list by using square brackets ([]) and the index of the list item. 
+If we wanted to select the third element from the list, we’d use calls[2]:
+print(calls[2])
+
+Will output:
+Amare
+
+#######################################################################
+
+1. Use square brackets ([ and ]) to select the 4th employee from the list employees. 
+Save it to the variable employee_four.
+2. Paste the following code into script.py:
+print(employees[8])
+What happens? Why?
+When we try to access an element that is outside of the range of the list indexes, Python will return an IndexError.
+IndexError: list index out of range
+3. Selecting an element that does not exist produces an IndexError.
+In the line of code that you pasted, change 8 to an index that exists so that you don’t get an IndexError.
+Run your code again!
+
+employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
+employee_four = employees[3]
+print(employees[1])
