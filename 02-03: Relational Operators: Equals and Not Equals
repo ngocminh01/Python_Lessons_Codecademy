@@ -1,0 +1,22 @@
+Equals: ==
+Not equals: !=
+
+#######################################################################
+
+1 == 1     # True
+2 != 4     # True
+3 == 5     # False
+'7' == 7   # False
+
+#######################################################################
+
+Statement one:
+(5 * 2) - 1 == 8 + 1
+Statement two:
+13 - 6 != (3 * 2) + 1
+Statement three:
+3 * (2 - 1) == 4 - 1
+
+statement_one = True
+statement_two = False
+statement_three = True
