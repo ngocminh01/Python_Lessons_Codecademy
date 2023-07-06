@@ -1,0 +1,33 @@
+File "script.py", line 1
+  print(Hello world!)
+                  ^
+SyntaxError: invalid syntax
+
+#######################################################################
+
+SyntaxError means there is something wrong with the way your program is written — 
+punctuation that does not belong, a command where it is not expected, or a missing parenthesis can all trigger a SyntaxError.
+
+Some common syntax errors are:
+Misspelling a Python keyword.
+Missing colon :.
+Missing closing parenthesis ), square bracket ], or curly brace }.
+
+#######################################################################
+
+# Fortune Cookie Program 🥠
+
+import random
+
+fortune = random.randint(0, 4)
+
+if fortune == 0:
+  print("May you one day be carbon neutral")
+elif fortune == 1:  
+  print("You have rice in your teeth")
+elif fortune == 2:
+  print("No snowflake feels responsible for an avalanche")
+elif fortune == 3:
+  print("You can only connect the dots looking backwards")
+elif fortune == 4:
+  print("The fortune you seek is in another cookie")
