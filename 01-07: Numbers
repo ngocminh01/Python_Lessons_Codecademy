@@ -1,0 +1,14 @@
+an_int = 2
+a_float = 2.1
+ 
+print(an_int + 3)
+# Output: 5
+
+#######################################################################
+
+# Define the release and runtime integer variables below:
+release_year = 2010
+runtime = 125
+
+# Define the rating_out_of_10 float variable below: 
+rating_out_of_10 = 7.5
